@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 
 import MealsNavigator from "./navigation/MealsNavigation";
 import mealsReducer from "./store/reducers/meals";
-import { createStackNavigator } from "react-navigation-stack";
+
 
 enableScreens();
 

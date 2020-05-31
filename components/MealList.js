@@ -17,6 +17,7 @@ const MealList = (props) => {
             routeName: "MealDetail",
             params: {
               mealId: itemData.item.id,
+              mealTitle: itemData.item.title,
             },
           });
         }}
@@ -43,7 +44,5 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
-
-
 
 export default MealList;

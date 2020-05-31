@@ -19,7 +19,7 @@ const CategoryGridTile = (props) => {
       <TouchableCmp style={{ flex: 1 }} onPress={props.onSelect}>
         <View
           style={{ ...styles.container, ...{ backgroundColor: props.color } }}>
-          <Text stlye={styles.title} numberOfLines={2}>
+          <Text style={styles.title} numberOfLines={2}>
             {props.title}
           </Text>
         </View>
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
       Platform.OS === "android" && Platform.Version >= 21
         ? "hidden"
         : "visible",
-    elevation: 10,
+    elevation: 5,
   },
   container: {
     flex: 1,
